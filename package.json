@@ -1,0 +1,27 @@
+{
+  "name": "dice-tracker",
+  "version": "1.0.0",
+  "description": "Theo dõi kết quả xúc xắc từ API và lưu trữ 50 phiên gần nhất",
+  "main": "sun.js",
+  "scripts": {
+    "start": "node sun.js",
+    "dev": "node sun.js"
+  },
+  "keywords": [
+    "dice",
+    "tracker",
+    "api",
+    "firebase"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "http": "^0.0.1-security",
+    "url": "^0.11.0"
+  }
+}
